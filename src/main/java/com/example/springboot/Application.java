@@ -20,6 +20,7 @@ public class Application {
 		return args -> {
 
 			System.out.println("Let's inspect the beans provided by Spring Boot:");
+			//update 1
 
 			String[] beanNames = ctx.getBeanDefinitionNames();
 			Arrays.sort(beanNames);
